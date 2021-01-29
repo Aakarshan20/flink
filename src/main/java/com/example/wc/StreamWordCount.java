@@ -22,7 +22,7 @@ public class StreamWordCount {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         // 設定併行度(不設定的話默認是4 ,因為取決於電腦核心數量)
-        env.setParallelism(8);
+        // env.setParallelism(8);
 
         //env.setParallelism(1); 也可以設為1 這樣的話只有一條thread
 
